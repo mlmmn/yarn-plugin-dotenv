@@ -1,0 +1,37 @@
+{
+  "name": "@mlmmn/yarn-plugin-dotenv",
+  "version": "1.0.0",
+  "description": "A dead simple plugin to load your .env files before Yarn v3 commands",
+  "main": "src/index.ts",
+  "type": "commonjs",
+  "packageManager": "yarn@3.4.1",
+  "scripts": {
+    "build": "builder build plugin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlmmn/yarn-plugin-dotenv.git"
+  },
+  "author": "Miłosław Politowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlmmn/yarn-plugin-dotenv/issues"
+  },
+  "homepage": "https://github.com/mlmmn/yarn-plugin-dotenv#readme",
+  "keywords": [
+    "yarn",
+    "berry",
+    "plugin",
+    "dotenv"
+  ],
+  "dependencies": {
+    "@npmcli/ci-detect": "3.0.2",
+    "dotenv": "16.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@yarnpkg/builder": "^3.2.7",
+    "@yarnpkg/core": "^3.4.0",
+    "typescript": "^4.9.5"
+  }
+}
