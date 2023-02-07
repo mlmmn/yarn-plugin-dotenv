@@ -5,8 +5,12 @@ A dead simple plugin to load your `.env` variables to `.yarnrc.yml` (Yarn v3+).
 ## Installation
 
 ```sh
-yarn plugin import https://raw.githubusercontent.com/mlmmn/yarn-plugin-dotenv/v1.0.0/bundles/@yarnpkg/plugin-dotenv.js
+yarn plugin import https://raw.githubusercontent.com/mlmmn/yarn-plugin-dotenv/v1.0.1/bundles/@yarnpkg/plugin-dotenv.js
 ```
+
+## Caveats
+
+This plugin will traverse folders up until it finds `.env` file - it does not support other names (like `.env.local` etc.)
 
 ## CI usage
 
