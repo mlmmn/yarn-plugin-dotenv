@@ -1,6 +1,6 @@
 {
   "name": "@mlmmn/yarn-plugin-dotenv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A dead simple plugin to load your .env files before Yarn v3 commands",
   "main": "src/index.ts",
   "type": "commonjs",
@@ -26,7 +26,8 @@
   ],
   "dependencies": {
     "@npmcli/ci-detect": "3.0.2",
-    "dotenv": "16.0.3"
+    "dotenv": "16.0.3",
+    "find-config": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^18.0.0",
