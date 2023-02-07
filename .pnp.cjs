@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/builder", "npm:3.2.7"],\
             ["@yarnpkg/core", "npm:3.4.0"],\
             ["dotenv", "npm:16.0.3"],\
+            ["find-config", "npm:1.0.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"]\
           ],\
           "linkType": "SOFT"\
@@ -86,6 +87,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/builder", "npm:3.2.7"],\
             ["@yarnpkg/core", "npm:3.4.0"],\
             ["dotenv", "npm:16.0.3"],\
+            ["find-config", "npm:1.0.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"]\
           ],\
           "linkType": "SOFT"\
@@ -1405,6 +1407,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["find-config", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "./.yarn/cache/find-config-npm-1.0.0-4ba758cba6-446c8c1155.zip/node_modules/find-config/",\
+          "packageDependencies": [\
+            ["find-config", "npm:1.0.0"],\
+            ["user-home", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["fs-constants", [\
         ["npm:1.0.0", {\
           "packageLocation": "./.yarn/cache/fs-constants-npm-1.0.0-59576b2177-18f5b71837.zip/node_modules/fs-constants/",\
@@ -1938,6 +1950,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["os-homedir", [\
+        ["npm:1.0.2", {\
+          "packageLocation": "./.yarn/cache/os-homedir-npm-1.0.2-01f82faa88-af609f5a7a.zip/node_modules/os-homedir/",\
+          "packageDependencies": [\
+            ["os-homedir", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["p-cancelable", [\
         ["npm:2.1.1", {\
           "packageLocation": "./.yarn/cache/p-cancelable-npm-2.1.1-9388305f02-3dba12b4fb.zip/node_modules/p-cancelable/",\
@@ -2412,6 +2433,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/typescript-patch-72dc6f164f-ab417a2f39.zip/node_modules/typescript/",\
           "packageDependencies": [\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["user-home", [\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/user-home-npm-2.0.0-a7b3877168-a3329faa95.zip/node_modules/user-home/",\
+          "packageDependencies": [\
+            ["user-home", "npm:2.0.0"],\
+            ["os-homedir", "npm:1.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
