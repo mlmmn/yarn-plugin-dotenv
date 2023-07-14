@@ -260,7 +260,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
               "esbuild-wasm",\
               "npm:0.15.18"\
             ]],\
-            ["semver", "npm:7.3.8"],\
+            ["semver", "npm:7.5.4"],\
             ["tslib", "npm:1.14.1"]\
           ],\
           "linkType": "HARD"\
@@ -303,7 +303,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chalk", "npm:3.0.0"],\
             ["ci-info", "npm:3.7.1"],\
             ["clipanion", "virtual:f9a3b1e86d96b9e7107e68a17ff001b6f2c90f7ecb592f4954f684bc4fc949ce6368a5139cd27d4e5f680ed1e0b72b3b09009e12489b5038877c4d1eee907a01#npm:3.2.0-rc.4"],\
-            ["semver", "npm:7.3.8"],\
+            ["semver", "npm:7.5.4"],\
             ["tslib", "npm:1.14.1"],\
             ["typanion", "npm:3.12.1"],\
             ["yup", "npm:0.32.11"]\
@@ -344,7 +344,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["p-limit", "npm:2.3.0"],\
             ["pluralize", "npm:7.0.0"],\
             ["pretty-bytes", "npm:5.6.0"],\
-            ["semver", "npm:7.3.8"],\
+            ["semver", "npm:7.5.4"],\
             ["stream-to-promise", "npm:2.2.0"],\
             ["strip-ansi", "npm:6.0.1"],\
             ["tar", "npm:6.1.13"],\
@@ -517,7 +517,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["enquirer", "npm:2.3.6"],\
             ["lodash", "npm:4.17.21"],\
             ["micromatch", "npm:4.0.5"],\
-            ["semver", "npm:7.3.8"],\
+            ["semver", "npm:7.5.4"],\
             ["tslib", "npm:1.14.1"],\
             ["typanion", "npm:3.12.1"]\
           ],\
@@ -575,7 +575,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["clipanion", "virtual:f9a3b1e86d96b9e7107e68a17ff001b6f2c90f7ecb592f4954f684bc4fc949ce6368a5139cd27d4e5f680ed1e0b72b3b09009e12489b5038877c4d1eee907a01#npm:3.2.0-rc.4"],\
             ["git-url-parse", "npm:13.1.0"],\
             ["lodash", "npm:4.17.21"],\
-            ["semver", "npm:7.3.8"],\
+            ["semver", "npm:7.5.4"],\
             ["tslib", "npm:1.14.1"]\
           ],\
           "packagePeers": [\
@@ -745,7 +745,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/fslib", "npm:2.10.1"],\
             ["@yarnpkg/plugin-pack", "virtual:5e31605d97332e188fe8473a4bdd52564b4b8073b1dd52b51fd91211b53862622f80362eb8cb83dfe6dbdde4fa3e5ccf072b6732755daabc1aafbe9298116c07#npm:3.1.4"],\
             ["enquirer", "npm:2.3.6"],\
-            ["semver", "npm:7.3.8"],\
+            ["semver", "npm:7.5.4"],\
             ["ssri", "npm:6.0.2"],\
             ["tslib", "npm:1.14.1"]\
           ],\
@@ -782,7 +782,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["clipanion", "virtual:f9a3b1e86d96b9e7107e68a17ff001b6f2c90f7ecb592f4954f684bc4fc949ce6368a5139cd27d4e5f680ed1e0b72b3b09009e12489b5038877c4d1eee907a01#npm:3.2.0-rc.4"],\
             ["enquirer", "npm:2.3.6"],\
             ["micromatch", "npm:4.0.5"],\
-            ["semver", "npm:7.3.8"],\
+            ["semver", "npm:7.5.4"],\
             ["tslib", "npm:1.14.1"],\
             ["typanion", "npm:3.12.1"]\
           ],\
@@ -882,7 +882,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/pnp", "npm:3.3.0"],\
             ["clipanion", "virtual:f9a3b1e86d96b9e7107e68a17ff001b6f2c90f7ecb592f4954f684bc4fc949ce6368a5139cd27d4e5f680ed1e0b72b3b09009e12489b5038877c4d1eee907a01#npm:3.2.0-rc.4"],\
             ["micromatch", "npm:4.0.5"],\
-            ["semver", "npm:7.3.8"],\
+            ["semver", "npm:7.5.4"],\
             ["tslib", "npm:1.14.1"]\
           ],\
           "packagePeers": [\
@@ -2217,10 +2217,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["semver", [\
-        ["npm:7.3.8", {\
-          "packageLocation": "./.yarn/cache/semver-npm-7.3.8-25a996cb4f-ba9c7cbbf2.zip/node_modules/semver/",\
+        ["npm:7.5.4", {\
+          "packageLocation": "./.yarn/cache/semver-npm-7.5.4-c4ad957fcd-12d8ad952f.zip/node_modules/semver/",\
           "packageDependencies": [\
-            ["semver", "npm:7.3.8"],\
+            ["semver", "npm:7.5.4"],\
             ["lru-cache", "npm:6.0.0"]\
           ],\
           "linkType": "HARD"\
