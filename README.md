@@ -1,8 +1,14 @@
 # yarn-plugin-dotenv
 
-A dead simple plugin to load your `.env` variables to `.yarnrc.yml` (Yarn v3+).
+A dead simple plugin to load your `.env` variables to `.yarnrc.yml` (Yarn v4+).
 
 ## Installation
+
+```sh
+yarn plugin import https://raw.githubusercontent.com/mlmmn/yarn-plugin-dotenv/v2.0.0/bundles/@yarnpkg/plugin-dotenv.js
+```
+
+For version supporting Yarn v3, use `v1.0.1` tag.
 
 ```sh
 yarn plugin import https://raw.githubusercontent.com/mlmmn/yarn-plugin-dotenv/v1.0.1/bundles/@yarnpkg/plugin-dotenv.js
